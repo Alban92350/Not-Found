@@ -1,0 +1,120 @@
+body{
+    /* background-color: lightblue; */
+}
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+header p {
+    font-family: inconsolata;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 15%;
+    margin-left: 5%;
+    margin-top: 3%;
+     
+}
+
+main{
+    font-family: space mono;
+}
+
+.img{
+    float: left;
+    margin-right: 5%;
+    margin-left:3%;
+   
+}
+
+.img img{
+    width: 100%;  
+}
+
+.text{
+    float: left;
+    margin-bottom: 2%;
+}
+
+.text h1{
+    clear: left;
+    margin-bottom: 5%;
+    font-size: 64px;
+    line-height: 94.78px;
+}
+
+.text p {
+    line-height: 35.54px;
+    margin-bottom: 5%;
+    
+}
+
+button{
+    background-color: #333333;
+    color: white;
+    width: 216px;
+    height: 68px;
+    margin-bottom: 10%;
+}
+
+main a{
+    border: solid black ;
+    border-width: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+
+
+footer{
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+footer p{
+    font-family: Montserrat;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+
+    header p{
+        font-size: 24px;
+    }
+
+  
+    .img img{
+        clear: left;
+        width: 100%;
+        margin-bottom: 15%;
+       
+    }
+
+    .text h1{
+        font-size: 48px;
+        line-height: 71.09px;
+        margin-left: 5%;
+        
+    }
+
+    .text p{
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    main{
+        margin-bottom: 25%;
+    }
+
+    main button{
+        margin-left: 5%;
+        font-size: 14px;
+        margin-bottom: 3%;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+  }
